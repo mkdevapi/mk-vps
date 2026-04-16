@@ -1,22 +1,15 @@
-<div align="center"><!-- 🔥 ANIMATED TYPING HEADER --><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=true&width=800&lines=MK+VPS+PRO+%F0%9F%96%A5%EF%B8%8F;Web-Based+Linux+Desktop+%F0%9F%8C%90;Run+Your+Own+Browser+VPS+%F0%9F%94%A5;Powered+by+Render+%E2%9A%A1" /><br><br>
+<div align="center"><!-- 🔵 NEON HEADER --><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=MK+VPS+PRO;Web-Based+Linux+Desktop;Fast+%E2%9A%A1+Stable+%F0%9F%94%A5+Modern+UI" /><br><br>
 
-🧑‍💻 FREE VPS
+✨ MK VPS PRO
 
-⚡ Web VPS • Full Linux Desktop
+🌐 Modern Web-Based Linux Desktop (Render Powered)
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600"/><br><img src="https://img.shields.io/badge/⚡%20Speed-Optimized-00ff9c?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/🌐%20Platform-Render-0ea5e9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🖥️%20GUI-XFCE-22c55e?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🔒%20Access-noVNC-ff9800?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/💻%20Terminal-Web%20Based-black?style=for-the-badge"/><br><br>
-
-✨ Turn your browser into a full Linux machine — anywhere, anytime ✨
-
-</div>---
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:6C00FF&height=120&section=header&text=NEON%20VPS%20SYSTEM&fontSize=30&fontColor=ffffff"/><br><img src="https://img.shields.io/badge/Platform-Render-00F7FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OS-Ubuntu%2022.04-6C00FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Desktop-XFCE-00FFB3?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Access-noVNC-FF00C8?style=for-the-badge"/></div>---
 
 🚀 Live Access
-
-🔗 Launch your VPS:
 
 https://your-app.onrender.com/vnc.html?autoconnect=true&resize=scale
 
@@ -26,38 +19,49 @@ password
 
 ---
 
-🎬 Live Demo Preview
+🎬 Preview
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTN4eWZ2bTRmOWRybGR0bW4zZ3N2cDlpOWJqZzV5ZDB3M3Q5N3RjbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="700"/>---
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="700"/>---
 
-🌟 Features
+📊 Live System Stats (UI Preview)
 
-🧠 Core System
-
-- 🖥️ Full XFCE Linux Desktop
-- 🌐 Browser-based access (noVNC)
-- ⚡ Single-port (Render compatible)
-
-⚙️ Smart Automation
-
-- 🔄 Auto-restart (watchdog system)
-- 💤 Keep-alive (reduce sleep)
-- 🔁 Auto session recovery
-
-📱 User Experience
-
-- 📲 Mobile optimized
-- 🖱️ Smooth UI interaction
-- 🎯 Clean hacker-style interface
-
-🔐 Security
-
-- 🔑 Password protected VNC
-- 🔒 Isolated container
+Metric| Status
+🖥️ CPU Usage| ⚡ Optimized
+💾 RAM| 📉 Low Usage
+🌐 Network| 🚀 Active
+🔄 Uptime| ⏱️ Session-Based
+📦 Storage| ⚠️ Temporary
 
 ---
 
-📂 Project Structure
+✨ Features
+
+⚡ Core System
+
+- 🖥️ Full XFCE Desktop
+- 🌐 Browser-based access (noVNC)
+- ⚡ Single-port deployment
+
+🔄 Automation
+
+- 🔁 Auto restart (watchdog)
+- 💤 Keep-alive system
+- 🔄 Auto reconnect
+
+📱 UX & UI
+
+- 📲 Mobile optimized
+- 🎨 Clean modern UI
+- 🌈 Neon-inspired styling
+
+🔐 Security
+
+- 🔑 Password protected access
+- 🔒 Isolated environment
+
+---
+
+📁 Project Structure
 
 mk-vps/
 ├── 🐳 Dockerfile
@@ -69,16 +73,86 @@ mk-vps/
 
 ---
 
-⚙️ Deploy in 60 Seconds
+⚙️ Deploy Guide (Render)
 
-🔧 Setup
-
-1️⃣ Upload repo to GitHub
+1️⃣ Upload to GitHub
 2️⃣ Open Render dashboard
 👉 https://dashboard.render.com
 
-3️⃣ Click New Web Service
+3️⃣ Create new Web Service
 
+Config:
+
+Setting| Value
+Language| Docker
+Branch| main
+Root Directory| (empty)
+Environment| Production
+Instance| Free
+
+---
+
+🧠 Architecture
+
+XFCE Desktop
+   ↓
+VNC Server (:1)
+   ↓
+websockify
+   ↓
+noVNC
+   ↓
+Browser UI
+
+---
+
+📱 Mobile Usage
+
+✔️ Enable Desktop Mode
+✔️ Rotate to landscape
+✔️ Use auto-connect link
+
+---
+
+⚠️ Limitations
+
+Feature| Status
+Persistent Storage| ❌
+Full VPS| ❌
+GPU| ❌
+SSH Access| ❌
+Always Running| ❌
+
+---
+
+🔮 Upcoming Enhancements
+
+- 📊 Real-time stats dashboard
+- 📁 File manager UI
+- 🌍 Built-in browser
+- 🔐 Authentication panel
+- ⚡ Ultra-light desktop
+
+---
+
+👨‍💻 Author
+
+Developed by MK
+
+---
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repo
+🚀 Share it
+
+---
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C00FF&height=120&section=footer"/>💡 Modern • Clean • Powerful
+
+</div>
 ---
 
 ⚡ Config
